@@ -1,2 +1,5 @@
 venv/
 nutri_lab/util.py
+nutri_lab/__pycache__/
+autenticacao/__pycache__/
+plataforma/__pycache__/
