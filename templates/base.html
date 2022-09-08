@@ -1,0 +1,30 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    {% block 'head' %}{% endblock  %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <title>{% block 'titulo' %}{% endblock  %}</title>
+  </head>
+  <body>
+    {% if user.is_authenticated %}
+      <nav style="background-color: #27DB8F; justify-content: space-between;" class="navbar navbar-expand-lg navbar-dark">
+        <a style="font-weight: bold" class="navbar-brand" href="">NUTRI <em style="color: #16704a">LAB<em></a>
+        <span style="align-items: center; margin-right: 30px; color:aliceblue" href="">Nutricionista: <em style="font-size:large">{{user.username}}</em></span>
+        <a style="font-weight: bold" class="navbar-brand" href="{% url 'sair' %}">Logout</a>
+      </nav> 
+    {% endif %}
+
+
+    {% block 'body' %}{% endblock  %}
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" ></script>
+
+   
+  </body>
+</html>
