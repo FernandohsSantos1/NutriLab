@@ -1,6 +1,6 @@
 # Projeto: NutriLab
 
-A NutriLab é uma platoforma para nutricionistas, onde eles podem gerênciar seus pacientes, 
+A NutriLab é uma plataforma para nutricionistas, onde eles podem gerênciar seus pacientes, 
 passar o plano alimentar com metas de macros nutrientes e opcões de receitas para atingir 
 estas metas, além de poder atualizar os dados como: peso, porcentagem de gordura corporal
 e porcentagem de massa magra, que pode ser visualizado através de um gráfico.
