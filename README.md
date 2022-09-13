@@ -10,3 +10,9 @@ página para gerênciar os pacientes (adicionar, remover e alterar dados cadastr
 página de dados dos pacientes (onde épossível adicionar o peso, a % de gordura corporal e 
 a % de massa magra e visualizar o gráfico), e a página do plano alimentar (onde se adiciona
 as refeições e tambem tem a opção de exportar como pdf).
+
+## Tecnologias 
+
+As técnologias principais foram Django e SQLite na parte do Backend. E Bootstrap, CSS e 
+JavaScript para o Frontend. O projeto foi desenvolvido durante o curso PythonFull, com 
+auxílio do professor Caio Sampaio.
