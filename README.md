@@ -19,7 +19,7 @@ auxílio do professor Caio Sampaio.
 
 ## Como rodar
 
-Crie um ambiente virtual:\n
+Crie um ambiente virtual:<br/>
   python -m venv venv
   
 Ative o ambiente virtual:
