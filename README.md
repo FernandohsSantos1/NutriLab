@@ -20,16 +20,16 @@ auxílio do professor Caio Sampaio.
 ## Como rodar
 
 Crie um ambiente virtual:<br/>
-  python -m venv venv
+  - python -m venv venv
   
-Ative o ambiente virtual:
-  no windowns:
-    venv\Scripts\Activate
+Ative o ambiente virtual:<br/>
+  - no windowns:<br/>
+    - venv\Scripts\Activate
     
-Instale o django e o pillow no ambiente virtual:
-  pip install django pillow
+Instale o django e o pillow no ambiente virtual:<br/>
+  - pip install django pillow
 
-Inice o servidor:
-  python manage.py runserver
+Inice o servidor:<br/>
+  - python manage.py runserver
   
   
