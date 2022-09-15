@@ -16,3 +16,20 @@ as refeições e tambem tem a opção de exportar como pdf).
 As tecnologias principais foram Django e SQLite na parte do Backend. E Bootstrap, CSS e 
 JavaScript para o Frontend. O projeto foi desenvolvido durante o curso PythonFull, com 
 auxílio do professor Caio Sampaio.
+
+## Como rodar
+
+Crie um ambiente virtual:
+  python -m venv venv
+  
+Ative o ambiente virtual:
+  no windowns:
+    venv\Scripts\Activate
+    
+Instale o django e o pillow no ambiente virtual:
+  pip install django pillow
+
+Inice o servidor:
+  python manage.py runserver
+  
+  
